@@ -16,6 +16,6 @@ public class Pedir {
     public void setNombre(String nombre){
     }
     public String getNombre(){
-    return nombre;
+        return nombre;
     }
 }
