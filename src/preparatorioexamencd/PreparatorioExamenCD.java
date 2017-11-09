@@ -1,15 +1,24 @@
 package preparatorioexamencd;
+
 import java.util.Scanner;
+/**
+ *
+ * @author abrandarizdominguez
+ */
 public class PreparatorioExamenCD {
 
     public static void main(String[] args) {
-    Scanner ler = new Scanner(System.in);
-    Pedir ped = new Pedir();
-    Mostrar mos = new Mostrar();
-    
+        // Se instancia un objeto de tipo Scanner
+        Scanner ler = new Scanner(System.in);
+        // Se instancia un objeto de tipo Pedir
+        Pedir ped = new Pedir();
+        // Se pide el nombre
         System.out.println("Hola, cuál es tu nombre?");
-        nom = ler.next();
-        ped.setNombre(nom);
+        String nombre = ler.next();
+        ped.setNombre(nombre);
+        // Se instancia un objeto de tipo Mostrar y llamo al método "saludar"
+        Mostrar mos = new Mostrar();
+        mos.saludar(nombre);
     }
     
 }
