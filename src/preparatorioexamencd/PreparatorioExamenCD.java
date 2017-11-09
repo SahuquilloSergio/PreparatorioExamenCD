@@ -3,7 +3,7 @@ package preparatorioexamencd;
 import java.util.Scanner;
 /**
  *
- * @author abrandarizdominguez
+ * @author Sergio "Sauky" Sahuquillo & abrandarizdominguez
  */
 public class PreparatorioExamenCD {
 
