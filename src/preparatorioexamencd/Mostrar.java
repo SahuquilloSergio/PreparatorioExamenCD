@@ -11,16 +11,9 @@ public class Mostrar {
         nom = nombre;
     }
     // Método que recibe el nombre y muestra un saludo
-    public String saludar (String nom){
+    public void saludar (String nom){
         nom = nombre;
-        System.out.println("Hola " +nombre+"haz el examen de COD por mi.\n PD: Damián apruébanos.");
-        return nombre;
-       
-        //System.out.println("Hola "+nom+", haz el examen de COD por mi.\n PD: Damián apruébanos.");
-       }
-    @Override
-    public String toString(){
-        return ("Hola "+nombre+", Damián dijo que tenía que aparecer ésto.");
+        System.out.println("Hola fulano, Damián dijo que tenía que aparecer ésto.");
     }
     
 }
