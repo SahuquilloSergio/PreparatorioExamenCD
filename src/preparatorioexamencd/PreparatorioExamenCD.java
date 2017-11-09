@@ -6,9 +6,9 @@ public class PreparatorioExamenCD {
     Scanner ler = new Scanner(System.in);
     Pedir ped = new Pedir();
     Mostrar mos = new Mostrar();
-    
+       //Pedimos el nombre y llamamos al metodo de setnombre
         System.out.println("Hola, cuál es tu nombre?");
-        nombre = ler.next();
+        String nombre = ler.next();
         ped.setNombre(nombre);
     }
     
