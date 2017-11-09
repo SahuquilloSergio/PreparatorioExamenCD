@@ -12,8 +12,8 @@ public Pedir(){
     
 }
 //Constructor por parametros
-public Pedir(String nom){
-    nom = nombre;
+public Pedir(String nombre){
+    this.nombre = nombre;
 }
 
 //Metodos de acceso
