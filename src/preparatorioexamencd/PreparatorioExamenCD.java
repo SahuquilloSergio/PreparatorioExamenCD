@@ -20,8 +20,7 @@ public class PreparatorioExamenCD {
         Mostrar mos = new Mostrar(nombre);
         mos.saludar(nombre);
         mos.toString();
-        System.out.println("Menudo timo, devuelvanme mi dinero");
-            System.out.println("Eso, eso");
+        System.out.println("Ultimo intento");
     }
     
 }
