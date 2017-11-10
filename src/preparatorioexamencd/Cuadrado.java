@@ -12,5 +12,6 @@ package preparatorioexamencd;
 public class Cuadrado {
     public void parida1 (){
         System.out.println("Parida2 Commit C");
+        System.out.println("El ataque de la huevera mortal ninja");
     }
 }
