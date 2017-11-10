@@ -21,6 +21,7 @@ public class PreparatorioExamenCD {
         mos.saludar(nombre);
         mos.toString();
         System.out.println("Menudo timo, devuelvanme mi dinero");
+            System.out.println("Eso, eso");
     }
     
 }
